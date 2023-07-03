@@ -6,6 +6,7 @@ function Form() {
     let [formData, setFormData] = useState({
         name: '',
         email: "",
+        phone: ""
     })
 
     function dataFetch (event) {
